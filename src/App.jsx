@@ -2,13 +2,24 @@ import './App.css'
 import { useEffect } from 'react'
 
 
+const tg = window.Telegram.WebApp;
+if (tg) {
+  tg.ready();
+  console.log(tg.initDataUnsafe);
+  tg.MainButton.text = "Нажмите меня!";
+  tg.MainButton.show();
+  tg.MainButton.onClick(() => {
+    tg.close();
+  });
+} else {
+  console.log(tg);
 
+}
 function App() {
-  const tg = window.Telegram.Web
 
-  // useEffect(() => {
-  //   tg.ready()
-  // })
+  useEffect(() => {
+    tg.ready()
+  })
 
   const onClose = () => {
     tg.close()
