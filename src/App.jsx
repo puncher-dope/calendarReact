@@ -1,7 +1,6 @@
 import './App.css'
 import { useEffect } from 'react'
-
-
+import CalendarGfg from './CalendarGfg';
 const tg = window.Telegram.WebApp;
 // if (tg) {
 //   tg.ready();
@@ -28,6 +27,7 @@ function App() {
     <>
       <h1>Hello world!!</h1>
       <button onClick={onClose}>Закрыть</button>
+      <CalendarGfg />
     </>
   )
 }
