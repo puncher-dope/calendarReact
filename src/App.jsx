@@ -3,17 +3,15 @@ import { useEffect } from 'react'
 
 
 
-const tg = window.Telegram.WebApp
-
 function App() {
-
+  const tg = window.Telegram.Web
 
   useEffect(() => {
     tg.ready()
   })
 
   const onClose = () => {
-    tg.close
+    tg.close()
   }
 
   return (
