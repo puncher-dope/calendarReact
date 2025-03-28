@@ -6,9 +6,9 @@ import { useEffect } from 'react'
 function App() {
   const tg = window.Telegram.Web
 
-  useEffect(() => {
-    tg.ready()
-  })
+  // useEffect(() => {
+  //   tg.ready()
+  // })
 
   const onClose = () => {
     tg.close()
