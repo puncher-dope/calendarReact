@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello world!!</h1>
+      <h1>Hello world!</h1>
       <button onClick={onClose}>Закрыть</button>
     </>
   )
