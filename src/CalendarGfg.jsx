@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Calendar from 'react-calendar';
+// import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 
 export default function CalendarGfg() {
@@ -7,11 +7,11 @@ export default function CalendarGfg() {
 
   return (
     <div>
-      <h1>Calendar - GeeksforGeeks</h1>
+      {/* <h1>Calendar - GeeksforGeeks</h1>
       <Calendar
         onChange={onChange}
         value={value}
-      />
+      /> */}
     </div>
   );
 }
