@@ -13,7 +13,7 @@ const tg = window.Telegram.WebApp;
 // } else {
 //   console.log(tg);
 // }
-function App() {
+export default function App() {
 
   useEffect(() => {
     tg.ready()
@@ -35,4 +35,3 @@ function App() {
   )
 }
 
-export default App
