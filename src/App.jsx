@@ -1,6 +1,6 @@
 import './App.css'
-import { useEffect } from 'react'
-import Auth from './Auth';
+// import { useEffect } from 'react'
+// import Auth from './Auth';
 // import CalendarGfg from './CalendarGfg';
 
 const tg = window.Telegram.WebApp;
@@ -28,7 +28,7 @@ export default function App() {
   return (
     <>
 
-      <Auth />
+      {/* <Auth /> */}
       {/* <h1>Hello world!!</h1> */}
       {/* <button onClick={onClose}>Закрыть</button> */}
       {/* <CalendarGfg/> */}
